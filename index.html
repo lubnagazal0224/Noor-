@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nooré | Rent Lehenga, Sherwani, Saree &amp; More</title>
+<meta name="description" content="Rent wedding and party wear by the day. Lehenga, sherwani, saree, suits and kids wear. Book on WhatsApp.">
+<style>
+:root{--ink:#2a2220;--bg:#fbf6f0;--card:#fff;--gold:#b8863b;--wine:#7a1f3d;--line:#eadfd2}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.bar{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.logo{font-size:1.35rem;font-weight:700;color:var(--wine)}
+.btn{display:inline-block;padding:10px 18px;border-radius:999px;font-weight:600;border:0;cursor:pointer;font-size:.95rem}
+.btn-wa{background:#25a244;color:#fff}
+.btn-wine{background:var(--wine);color:#fff}
+.hero{padding:56px 0 40px;text-align:center;background:linear-gradient(180deg,#f6e7d6,var(--bg))}
+.hero h1{font-size:clamp(1.8rem,5vw,3rem);color:var(--wine);margin-bottom:12px}
+.hero p{max-width:560px;margin:0 auto 22px;font-size:1.05rem}
+section{padding:40px 0}
+h2{font-size:1.6rem;margin-bottom:6px;color:var(--wine)}
+.sub{margin-bottom:20px;color:#6b5d57}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.chip{padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:.92rem}
+.chip.on{background:var(--wine);color:#fff;border-color:var(--wine)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.ph{aspect-ratio:3/4;background:linear-gradient(135deg,#ecd9c3,#d9b99a);display:flex;align-items:center;justify-content:center;font-size:3rem;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.info{padding:14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.info h3{font-size:1.05rem}
+.meta{font-size:.88rem;color:#6b5d57}
+.price{font-weight:700;color:var(--gold);font-size:1.1rem}
+.info .btn{margin-top:auto;text-align:center}
+.tag{display:inline-block;background:#f6e7d6;border-radius:6px;padding:2px 8px;font-size:.78rem}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;list-style:none}
+.steps li{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.steps b{display:block;color:var(--gold);font-size:1.4rem}
+.terms{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}
+.terms li{margin:6px 0 6px 18px}
+footer{background:#2a2220;color:#f3e9df;padding:30px 0;text-align:center}
+footer a{text-decoration:underline}
+.empty{display:none;padding:20px;text-align:center;color:#6b5d57}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a href="#top" class="logo">Nooré</a>
+    <a class="btn btn-wa" id="topWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Rent the Look. Skip the Cost.</h1>
+      <p>Lehenga, sherwani, saree, suits and kids wear on rent by the day. Choose, message us on WhatsApp and book.</p>
+      <a href="#catalogue" class="btn btn-wine">See Collection</a>
+    </div>
+  </section>
+
+  <section id="catalogue">
+    <div class="wrap">
+      <h2>Our Collection</h2>
+      <p class="sub">Tap “Book on WhatsApp” on any outfit to ask for your dates.</p>
+      <div class="filters" id="filters"></div>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty">No outfits in this category yet.</p>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <h2>How Renting Works</h2>
+      <p class="sub">Four simple steps.</p>
+      <ol class="steps">
+        <li><b>01</b>Choose an outfit from the collection.</li>
+        <li><b>02</b>Message us on WhatsApp with your date and size.</li>
+        <li><b>03</b>Pay the rent and a refundable deposit, then collect the outfit.</li>
+        <li><b>04</b>Wear it, return it on time and get your deposit back.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="terms">
+    <div class="wrap">
+      <h2>Rental Terms</h2>
+      <div class="terms">
+        <ul>
+          <li>Rent is per day. Extra days are charged extra.</li>
+          <li>A refundable deposit is taken and returned when the outfit comes back in good condition.</li>
+          <li>Please return the outfit on the agreed date.</li>
+          <li>Damage or stains beyond normal use may be deducted from the deposit.</li>
+          <li>Booking is confirmed only after advance payment.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><b>Nooré</b></p>
+    <p>Gulzar Girls Hostel, Hyderabad</p>
+    <p>WhatsApp: <a id="footWa" href="#" target="_blank" rel="noopener"></a></p>
+    <p style="margin-top:10px;font-size:.85rem">© 2026 Nooré. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+/* ============ Nooré ============ */
+var SHOP_NAME = "Nooré";
+var WHATSAPP  = "919142778547";   // country code ke saath, bina + aur space ke
+
+/* Har kapde ke liye ek line. Photo: images folder me daalo aur naam yahan likho */
+var ITEMS = [
+  { name:"Red Bridal Lehenga",   cat:"Lehenga",  price:800, deposit:3000, size:"M, L",     img:"https://sp.yimg.com/ib/th/id/OIP.XX5Gjdp70y4mCGWHMdqCXgHaLH?pid=Api&w=148&h=148&c=7&dpr=2&rs=1" },
+  { name:"Pink Party Lehenga",   cat:"Lehenga",  price:500, deposit:2000, size:"S, M",     img:"https://i.pinimg.com/originals/7b/8c/21/7b8c214c584b51b2dc4821a4f4b9dff6.jpg" },
+  { name:"Cream Sherwani Set",   cat:"Sherwani", price:1000, deposit:3000, size:"38, 40",   img:"https://tse4.mm.bing.net/th/id/OIP.0dxtP0b_a9Bzx1LfV4nXawHaKQ?r=0&pid=Api&h=220&P=0" },
+  { name:"Maroon Sherwani",      cat:"Sherwani", price:1000, deposit:2500, size:"40, 42",   img:"https://tse1.mm.bing.net/th/id/OIP.umC2Xjk1kt8lYiJ69GqcfAHaJ4?r=0&pid=Api&h=220&P=0" },
+  { name:"Silk Banarasi Saree",  cat:"Saree",    price:600, deposit:1500, size:"Free size",img:"https://tse4.mm.bing.net/th/id/OIP.ApC53j7IiJ05j31FrdBgSQHaKX?r=0&pid=Api&h=220&P=0" },
+  { name:"Georgette Party Saree",cat:"Saree",    price:800,  deposit:1000, size:"Free size",img:"https://tse4.mm.bing.net/th/id/OIP.e1TS-qduPLg06lxX45ag-AHaLH?r=0&pid=Api&h=220&P=0" },
+  { name:"Anarkali Suit",        cat:"Suit",     price:500, deposit:1200, size:"M, L, XL", img:"https://tse2.mm.bing.net/th/id/OIP.R_4McQVGIp3FOLbMbqZM5AHaJG?r=0&pid=Api&h=220&P=0" },
+  { name:"pakistani suits",    cat:"Kids",     price:500,  deposit:500,  size:"4-6 yrs",  img:"https://tse2.mm.bing.net/th/id/OIP.BJhw9uBZUSIk6P4MkQxYqwHaHa?r=0&pid=Api&h=220&P=0" }
+];
+/* ================================================= */
+
+var emoji = {Lehenga:"👗",Sherwani:"🤵",Saree:"🥻",Suit:"👘",Kids:"🧒"};
+var grid = document.getElementById("grid");
+var filtersEl = document.getElementById("filters");
+var emptyEl = document.getElementById("empty");
+
+function waLink(text){
+  return "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(text);
+}
+function esc(s){
+  return String(s).replace(/[&<>"']/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+  });
+}
+
+function render(cat){
+  var list = ITEMS.filter(function(i){ return cat === "All" || i.cat === cat; });
+  grid.innerHTML = list.map(function(i){
+    var msg = "Hello " + SHOP_NAME + ", I want to rent “" + i.name + "”. Is it available? My date is: ";
+    return '<article class="card">' +
+      '<div class="ph"><img src="' + esc(i.img) + '" alt="' + esc(i.name) + '" loading="lazy" ' +
+      'onerror="this.remove()"><span style="position:absolute"></span></div>' +
+      '<div class="info">' +
+        '<span class="tag">' + esc(i.cat) + '</span>' +
+        '<h3>' + esc(i.name) + '</h3>' +
+        '<div class="meta">Size: ' + esc(i.size) + '</div>' +
+        '<div class="price">₹' + i.price + ' / day</div>' +
+        '<div class="meta">Deposit: ₹' + i.deposit + ' (refundable)</div>' +
+        '<a class="btn btn-wa" target="_blank" rel="noopener" href="' + waLink(msg) + '">Book on WhatsApp</a>' +
+      '</div></article>';
+  }).join("");
+  emptyEl.style.display = list.length ? "none" : "block";
+}
+
+function buildFilters(){
+  var cats = ["All"];
+  ITEMS.forEach(function(i){ if(cats.indexOf(i.cat) === -1) cats.push(i.cat); });
+  filtersEl.innerHTML = cats.map(function(c,idx){
+    return '<button type="button" class="chip' + (idx===0?' on':'') + '" data-c="' + esc(c) + '">' + esc(c) + '</button>';
+  }).join("");
+  filtersEl.addEventListener("click", function(e){
+    var b = e.target.closest(".chip");
+    if(!b) return;
+    Array.prototype.forEach.call(filtersEl.children,function(x){ x.classList.remove("on"); });
+    b.classList.add("on");
+    render(b.getAttribute("data-c"));
+  });
+}
+
+var hello = "Hello " + SHOP_NAME + ", I want to know about renting clothes.";
+document.getElementById("topWa").href = waLink(hello);
+var fw = document.getElementById("footWa");
+fw.href = waLink(hello);
+fw.textContent = "+" + WHATSAPP;
+
+buildFilters();
+render("All");
+</script>
+</body>
+</html>
